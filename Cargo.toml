@@ -1,7 +1,7 @@
 [package]
 name = "echarts"
-version = "0.1.2"
-edition = "2021"
+version = "0.1.3"
+edition = "2024"
 homepage = "https://github.com/ptechen"
 documentation = "https://docs.rs/echarts"
 repository = "https://github.com/ptechen/echarts.git"
@@ -11,5 +11,5 @@ description = "Rust bindings for echarts."
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-wasm-bindgen = "0.2.84"
-web-sys = { version = "0.3.60", features = ["Element", "HtmlCanvasElement"] }
+wasm-bindgen = "0.2"
+web-sys = { version = "0.3", features = ["Element", "HtmlCanvasElement"] }
